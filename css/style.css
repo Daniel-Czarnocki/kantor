@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Inter", sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #253b17;
+}
+
+.body__head {
+    font-style: italic;
+    font-size: 50px;
+}
+
+.body__foot {
+    font-size: 10px;
+}

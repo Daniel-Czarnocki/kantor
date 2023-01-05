@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internetowy Kalkulator walut</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="body__head">youExchange</h1>
+    </header>
+    <h2>INTERNETOWY KANTOR</h2>
+
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Twoje pieniądze do wymiany</legend>
+            <p>
+                <label class="form__label">
+                    Podaj, ile złotych chcesz wymienić:
+                    <input placeholder="PLN" class="form__cell js-amount" type="number" required step="0.01">
+                </label>
+            </p>
+
+
+            <legend class="form__legend">Wybierz walutę</legend>
+            <ul>
+                <li>
+                    <label>
+                        EUR
+                        <input type="radio" value="eur" name="currency" class="js-currency">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        USD
+                        <input type="radio" value="usd" name="currency" class="js-currency">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        GBP
+                        <input type="radio" value="gbp" name="currency" class="js-currency">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        CHF
+                        <input type="radio" value="chf" name="currency" class="js-currency">
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+
+
+        <p>
+            <button class="form__button js-submit">Przelicz na inne waluty</button>
+        </p>
+
+
+        <p><span class="form__resultWording">
+                Twoje złotówki są warte dziś (04/01/2023):
+                <br>
+                <strong class="js-result">???</strong>&nbspw wybranej walucie.
+            </span>
+        </p>
+
+
+    </form>
+
+    <footer>
+        <span class="body__foot">
+            (c) youExchange 2023
+        </span>
+    </footer>
+</body>
+
+</html>
