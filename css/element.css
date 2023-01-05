@@ -1,0 +1,7 @@
+.element {
+    overflow: auto;
+    resize: both;
+    background: center / contain no-repeat url("../images/background.jpg") #ccc;
+    background-size: cover;
+    background-color: transparent;
+}
