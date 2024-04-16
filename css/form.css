@@ -1,8 +1,11 @@
 .form {
     color: #253b17;
+    display: block;
+    margin: auto;
+    display: inline-block;
 }
 
-.form__legend {    
+.form__legend {  
     border: none;
     background-color: #85bb65;
     color:white;
@@ -33,7 +36,11 @@
     width: 100%;
     max-width: 300px;
     border-radius: 6px;
-    
+}
+
+.form__radio {
+    display: block;
+    text-align: left;
 }
 
 .form__button {
@@ -42,6 +49,7 @@
     max-width: 300px;
     border-radius: 6px;
     padding:10px;
+    text-align: left;
 }
 
 .form__button:hover {
