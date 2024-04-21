@@ -51,9 +51,9 @@ console.log("Już w repozytorium GIT");
 
     const calculateResult = (amount, currency) => {
         const usdRate = 4.07;
-        const eurRate = 4.32;
+        const eurRate = 4.33;
         const gbpRate = 5.06;
-        const chfRate = 4.46;
+        const chfRate = 4.48;
 
         switch (currency) {
             case 'eur':
