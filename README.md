@@ -6,3 +6,8 @@
 - US dollar,
 - British pound
 - Swiss franc
+
+### Technologies used
+- HTML
+- CSS with BEM
+- JavaScript with ES6+ features

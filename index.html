@@ -27,15 +27,13 @@
     </header>
     <h2>INTERNETOWY KANTOR</h2>
 
-    
-
     <form class="form js-form">
         <fieldset class="form__fieldset">
             <legend class="form__legend">Twoje pieniądze do wymiany</legend>
             <p>
                 <label class="form__label">
                     Podaj, ile złotych chcesz wymienić:
-                    <input placeholder="PLN" class="form__cell js-amount" type="number" required step="0.01">
+                    <input placeholder="PLN" class="form__cell js-amount" type="number" required step="0.01" min="0">
                 </label>
             </p>
 
@@ -45,7 +43,7 @@
                 <li>
                     <label class="form__radio">
                         EUR
-                        <input type="radio" value="eur" name="currency" class="js-currency">
+                        <input type="radio" value="eur" name="currency" class="js-currency" checked>
                     </label>
                 </li>
                 <li>
